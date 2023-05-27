@@ -7,7 +7,7 @@ export function ImageList() {
       id: 1,
       img: img2,
       heading: "PROJECTS",
-      subheading: "INCREASING KNOWLEDGE SKILLS AND HO{PE ",
+      subheading: "INCREASING KNOWLEDGE SKILLS AND HOPE ",
     },
     {
       id: 2,
