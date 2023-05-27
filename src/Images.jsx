@@ -26,7 +26,7 @@ export function ImageList() {
     <div className="image-card">
       {images.map((pic, index) => (
         <div key={index} className="card-img">
-          <img className="image" src={pic.img} alt="img" />
+          <img className="image" src={pic.img}  />
           <h1 className="heading-card">{pic.heading}</h1>
           <h6 className="subheading-card">{pic.subheading}</h6>
         </div>
