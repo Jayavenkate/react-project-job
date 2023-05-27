@@ -3,7 +3,6 @@
 } */
 .app {
   align-items: center;
-  
 }
 .image {
   width: 900px;
@@ -16,7 +15,6 @@
   flex-wrap: wrap;
   flex-direction: row;
   gap: 30px;
-  
 }
 .image-app {
   width: 100%;
@@ -28,7 +26,7 @@
   width: 100%;
 
   margin-bottom: 30px;
-  
+
   text-align: center;
   background: no-repeat;
   background-position: center;
@@ -40,6 +38,11 @@
 .heading-2 {
   color: rgb(226, 232, 232);
 }
+.card-img {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
 .heading-card {
   font-size: 60px;
   color: white;
@@ -48,19 +51,16 @@
   position: absolute;
   height: fit-content;
   top: 0;
+  padding-bottom: 200px;
   bottom: 0;
   left: 0;
   right: 0;
 }
-.card-img {
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-}
+
 .subheading-card {
   font-size: 30px;
   color: rgb(235, 231, 231);
-
+  margin: auto;
   text-align: center;
   position: absolute;
   height: fit-content;
